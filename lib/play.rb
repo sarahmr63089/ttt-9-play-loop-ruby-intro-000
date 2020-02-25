@@ -36,7 +36,9 @@ def turn(board)
 end
 
 def play(board)
-  while board contains " " || ""
+turncount = 0
+  while turncount < 10
     turn(board)
+    turncount += 1
   end
 end
