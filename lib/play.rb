@@ -39,4 +39,4 @@ def play(board)
   while board contains " " || ""
     turn(board)
   end
-end  
+end
