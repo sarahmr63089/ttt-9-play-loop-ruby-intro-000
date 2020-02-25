@@ -36,7 +36,7 @@ def turn(board)
 end
 
 def play(board)
-  while board[index] = " " || ""
+  while board contains " " || ""
     turn(board)
   end
 end  
